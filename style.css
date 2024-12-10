@@ -149,6 +149,7 @@ body {
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
     color: white;
+    align-items: center;
   }
   
   .left-container .stat-item {
@@ -195,6 +196,102 @@ body {
     padding-right: 1.13rem;
     display: flex;
   }
+
+  .customers{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-cust{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .text-cust h2{
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .slider-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+
+  .slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider-wrapper{
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .card{
+    flex: 0 0 400px;
+    margin: 10px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .card-content{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-content img{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .btns{
+    display: flex;
+    gap:10px;
+  }
+
+ .slider-btn{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  height: 53px;
+  width: 53px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+ }
+
+ .slider-btn:hover{
+  background-color: #9d9d9d;
+  transition: 1s;
+ }
+
+.slider-btn img{
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
 
   
   
