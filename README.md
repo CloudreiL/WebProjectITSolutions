@@ -3,3 +3,4 @@ Used HTML, CSS
 ## Presentation
 ![alt text](assets/screenshotsREADME/screenshot1.png)
 ![alt text](assets/screenshotsREADME/screenshot2.png)
+![alt text](assets/screenshotsREADME/screenshot3.png)
