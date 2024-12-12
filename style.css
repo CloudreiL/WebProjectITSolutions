@@ -35,12 +35,12 @@ body {
     left: 0;
     width: 100%;
     min-height: 100vh;
-    background: url('assets/png/backgroung1.png') no-repeat center center/cover;
+    background: url('assets/png/background1.png') no-repeat center center/cover;
     }
   
   .header {
     width: 100%;
-    height: 12%;
+    height: 11%;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -106,11 +106,11 @@ body {
     text-decoration: none;
     border-radius: 25px;
     font-size: 18px;
-    transition: 1s;
   }
   
   .content .button:hover {
     background: #333;
+    transition: 0.3s;
   }
 
   .tech-wrapper{
@@ -330,8 +330,10 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
 .work-wrapper::before{
@@ -351,16 +353,14 @@ body {
   bottom: 0;
   left: 0;
   width:100%;
-  height: 100vh;
+  height: 120vh;
   background: url('assets/png/background5.png') no-repeat center center/cover;
   z-index: -1;
 }
 
 
-.text-work h2{
-  padding: 0 20px;
+.text-work{
   font-size: 40px;
-  margin: 0;
 }
 
 .dual-container-work {
@@ -372,7 +372,7 @@ body {
   overflow: hidden;
   max-width: 1200px;
   height: 160px;
-  margin: 50px auto 20px auto;
+  margin: 20px auto 20px auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -445,4 +445,65 @@ body {
   padding-left: 10px;
   line-height: 1.2;
 }
+
+.develop-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.develop-wrapper::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  min-width:100%;
+  min-height: 100vh;
+  background: url('assets/png/background6.png') no-repeat center;
+  z-index: -1;
+}
+
+.tools-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.last-block{
+  grid-column: 1/-1;
+  justify-self: center;
+  width: 50%;
+}
+
+.tools-cont{
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  max-height: 200px; 
+}
+
+.title-tools{
+  font-size: 30px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.text-tools{
+  font-size: 20px;
+}
+
+.text-dvlp{
+  font-size: 40px;
+}
+
   
