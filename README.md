@@ -12,3 +12,5 @@
 ![alt text](assets/screenshotsREADME/screenshot5.png)
 ## DevelopmentToolsSection
 ![alt text](assets/screenshotsREADME/screenshot6.png)
+## CustomServices&Industries
+![alt text](assets/screenshotsREADME/screenshot7.png)
