@@ -18,6 +18,10 @@ body {
   #service_industries{
     scroll-margin-top: 70px;
   }
+
+  #portfolio{
+    scroll-margin: 70px;
+  }
   
   .page-container{
     grid-row-gap: 3.12rem;
@@ -44,7 +48,7 @@ body {
   
   .header {
     width: 100%;
-    height: 11%;
+    height: 10%;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -55,7 +59,7 @@ body {
     position: fixed; 
     box-sizing: border-box;
 
-    z-index: 2;
+    z-index: 1000;
   }
 
   .logo{
@@ -188,7 +192,7 @@ body {
     color: black;
   }
   
-  .right-container-tech h3 {
+  .right-container-tech p {
     margin-top: 10px;
     font-size: 32px;
     text-align: center;
@@ -517,7 +521,7 @@ body {
 .services-wrapper{
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 125vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -605,4 +609,106 @@ body {
   font-size: 35px;
 }
 
+.portfolio-wrapper {
+  width: 100%;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-title{
+  font-size: 40px;
+}
+
+.portfolio-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;  
+  width: 100%;
+  position: relative;
+}
+
+.portfolio-card{
+  position: relative;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  min-height: 500px;
+  z-index: 2;
+}
+
+.portfolio-bg1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/png/portfolio_cards/card_bg/backcard1.png) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.portfolio-bg2{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/png/portfolio_cards/card_bg/backcard2.png) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.portfolio-bg3{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/png/portfolio_cards/card_bg/backcard3.png) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.portfolio-bg4{
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/png/portfolio_cards/card_bg/backcard4.png) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.portfolio-phone{
+  position: relative;
+  left: 20px;
+  z-index: 2;
+  size: 20px;
+  height: 400px;
+  z-index: 2;
+}
+
+.portfolio-info{
+  text-align: right;
+  padding-right: 20px;
+  z-index: 2;
+}
+
+.portfolio-app-title{
+  font-size: 30px;
+  padding-top: 20px;
+  margin: 0;
   
+}
+
+.portfolio-app-desc{
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin: 0;
+}
