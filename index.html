@@ -15,7 +15,7 @@
                     <a href="#our_work">Ход Нашей Работы</a>
                     <a href="#service_industries">Услуги</a>
                     <a href="#portfolio">Портфолио</a>
-                    <a href="#">Связь</a>
+                    <a href="#contact">Связь</a>
                 </nav>
             </div>
             <div class="content">
@@ -372,8 +372,27 @@
                 </div>
             </section>
         </div>
+
+        <div class="contact-wrapper">
+            <section id="contact">
+                <div class="contact-container">
+                    <h2>Есть вопросы?</h2>
+                    <p>Пишите нам!</p>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Имя" class="contact-input">
+                        <input type="tel" placeholder="Телефон" class="contact-input" id="phone" maxlength="18">
+                        <input type="email" placeholder="E-mail" class="contact-input">
+                        <textarea placeholder="Ваш вопрос..." class="contact-input message" maxlength="300"></textarea>
+                        <button type="submit" class="submit-btn">
+                            <img src="assets/png/icons/arrow_next.png" alt="Submit">
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </section>
 
-    <script src="slider.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/form_validation.js"></script>
 </body>
 </html>
