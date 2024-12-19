@@ -21,7 +21,7 @@
             <div class="content">
                 <h1>Создаем цифровые решения,<br>которые меняют мир</h1>
                 <p>Мобильная &<br> Веб Разработка</p>
-                <a href="#" class="button">Начать проект</a>
+                <a href="#" class="button" id="startProjectBtn">Начать проект</a>
             </div>
         </section>
         <div class="tech-wrapper">
@@ -392,7 +392,49 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <a href="#home_screen"></a><img src="assets/png/logotitle_white.png" alt="SoftWave"></a>
+                    <p class="footer-slogan">Создаем цифровые решения,<br>которые меняют мир</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><img src="assets/png/icons/github_logo.png" alt="GitHub"></a>
+                    <a href="#"><img src="assets/png/icons/vk_logo.png" alt="VK"></a>
+                    <a href="#"><img src="assets/png/icons/youtube_logo.png" alt="YouTube"></a>
+                    <a href="#"><img src="assets/png/icons/telegram_logo.png" alt="Telegram"></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">
+                    <a href="mailto:example@email.com">example@email.com</a>
+                    <a href="tel:+79000000000">+7(900) 000-00-00</a>
+                    <p>Москва, ул. Пушкина,<br>д. Колотушкина, 6/1</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 SoftWeb. All rights reserved</p>
+        </div>
+    </footer>
+    
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Начните свой проект с нами</h2>
+            <form class="modal-form">
+                <input type="text" placeholder="Имя" class="contact-input">
+                <input type="tel" placeholder="Телефон" class="contact-input" maxlength="18">
+                <input type="email" placeholder="E-mail" class="contact-input">
+                <button type="submit" class="submit-btn">
+                    <img src="assets/png/icons/arrow_next.png" alt="Submit">
+                </button>
+            </form>
+        </div>
+    </div>
     <script src="scripts/slider.js"></script>
     <script src="scripts/form_validation.js"></script>
+    <script src="scripts/modal.js"></script>
 </body>
 </html>

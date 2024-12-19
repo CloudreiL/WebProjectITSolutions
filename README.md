@@ -19,3 +19,7 @@
 ![alt text](assets/screenshotsREADME/screenshot9.png)
 ## ContactSection
 ![alt text](assets/screenshotsREADME/screenshot10.png)
+## Footer
+![alt text](assets/screenshotsREADME/screenshot11.png)
+## Modal
+![alt text](assets/screenshotsREADME/screenshot12.png)
