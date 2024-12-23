@@ -2,6 +2,7 @@ html, body {
     overflow-x: hidden;
     width: 100%;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -374,7 +375,7 @@ body {
 }
 
 
-.text-work{
+.title-work{
   font-size: 40px;
 }
 
@@ -1341,8 +1342,70 @@ body {
     min-height: 80vh;
   }
 
+  .serv-ind-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .serv-ind-cont {
+    max-width: 100%;
+    min-height: 300px;
+    border-radius: 40px;
+  }
+
+  .serv-ind-last {
+    width: 85%;
+    margin-top: 40px;
+  }
+
+  .custom-servs {
+    font-size: 60px;
+  }
+
+  .serv-ind-title{
+    font-size: 55px;
+  }
+
+  .serv-ind-text{
+    font-size: 35px;
+  }
+
+  .services-wrapper{
+    height: 80vh;
+  }
+
+  .services-wrapper::before{
+    height: 50vh;
+  }
+
+  .service{
+    min-height: 100vh;
+  }
+
+  .custom-servs{
+    margin-left:20px;
+  }
+
+  .portfolio-wrapper{
+    height: 90vh;
+  }
+
+
+  .serv-ind-last-title{
+    font-size: 65px;
+  }
+
+  .ind-item{
+    font-size: 40px;
+    height: 3.5rem;
+  }
+
+  .ind-list{
+    gap: 20px;
+  }
 
 }
-
-
 
