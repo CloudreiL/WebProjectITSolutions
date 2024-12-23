@@ -1134,21 +1134,21 @@ body {
       background: url('assets/png/background1.png') no-repeat center center/cover;
   }
 
-      .content h1 {
+  .content h1 {
         font-size: 70px;
         margin-bottom: 2px;
         
-    }
+  }
 
-    .content p {
+  .content p {
         font-size: 40px;
         margin-bottom: 10px;
         white-space: nowrap;
         display: block;
         text-align: center;
-    }
+  }
 
-    .content .button {
+  .content .button {
         padding: 15px 45px;
         font-size: 40px;
         border-radius: 45px;
@@ -1156,7 +1156,73 @@ body {
         min-width: 400px;
         display: inline-block;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    }
+  }
+
+  .dual-container-tech {
+        flex-direction: column-reverse;
+        margin: 50px;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        border-radius: 40px;
+  }
+
+  .left-container-tech, 
+  .right-container-tech {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        min-height: 300px;
+        box-sizing: border-box;
+  }
+
+  .left-container-tech .number {
+        font-size: 60px;
+  }
+
+  .left-container-tech .text {
+        font-size: 35px;
+  }
+
+  .right-container-tech p {
+        font-size: 60px;
+        margin-bottom: 20px;
+  }
+
+  .tech-list {
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 0;
+  }
+
+  .tech-item {
+        font-size: 30px;
+        height: 2.5rem;
+        padding: 0 15px;
+        white-space: nowrap;
+  }
+
+  .tech-wrapper{
+    height: 60vh;
+  }
+
+  .tech-wrapper::before{
+    height: 60vh;
+  }
+
+  .cust-wrapper{
+    height: 50vh;
+  }
+  
+  .cust-wrapper::before{
+    height: 50vh;
+  }
+
+  
+  
+
 }
 
 
