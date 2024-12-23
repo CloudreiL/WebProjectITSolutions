@@ -1255,8 +1255,57 @@ body {
   .text-cust h2 {
     font-size: 60px;
   }
-  
 
+  .title-work{
+    font-size: 60px;
+    margin-left: 30px;
+  }
+  
+  .dual-container-work {
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-bottom: 50px;
+  }
+
+  .left-cont-work,
+  .right-container-work {
+    width: 100%;
+    flex: none;
+    padding: 20px;
+    max-height: 450px;
+    box-sizing: border-box;
+  }
+
+  .left-cont-work .number-work {
+    font-size: 100px;
+  }
+
+  .left-cont-work .text-work {
+    font-size: 60px;
+  }
+
+  .right-cont-work-text p {
+    font-size: 40px;
+    line-height: 1.3;
+    padding: 10px;
+  }
+
+  .work-wrapper{
+    min-height: 100vh;
+  }
+  
+  .work-wrapper::before{
+
+    height: 80vh;
+  }
+  
+  .work-wrapper::after{
+    height: 80vh;
+  }
 }
 
 
