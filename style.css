@@ -1299,13 +1299,49 @@ body {
   }
   
   .work-wrapper::before{
-
     height: 80vh;
   }
   
   .work-wrapper::after{
     height: 80vh;
   }
+
+  .tools-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.tools-cont {
+    max-width: 100%;
+    min-height: 200px;
+    border-radius: 40px;
+  }
+
+  .last-block {
+    width: 95%;
+  }
+
+.text-dvlp {
+    font-size: 60px;
+    padding: 0 20px;
+  }
+
+  .title-tools{
+    font-size: 70px;
+  }
+
+  .text-tools{
+    font-size: 40px;
+  }
+
+  .develop{
+    min-height: 80vh;
+  }
+
+
 }
 
 
