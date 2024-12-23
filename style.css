@@ -1,12 +1,14 @@
-html{
-  scroll-behavior: smooth;
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
 
 body {
     margin: 0;
     font-family: Sansation Light;
     background-color: #E3E3E3;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
@@ -36,7 +38,8 @@ body {
     overflow: visible;
     margin: 0;
     padding: 0;
-  }
+    min-height: 100vh;
+}
 
   .splash-screen{
     overflow: hidden;
@@ -994,6 +997,166 @@ body {
 .modal-form .submit-btn img {
     width: 24px;
     height: 24px;
+}
+
+/* Мобильное меню */ 
+.menu-toggle {
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 120px;
+        padding: 10px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo { 
+        height: 100px;
+        width: 250px;
+        white-space: nowrap;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 1001;
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-toggle span {
+        height: 4px;
+        margin: 8px 0;
+    }
+
+    .navigation {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(25px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        gap: 40px;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .navigation a {
+        font-size: 40px;
+        opacity: 0.8;
+    }
+
+    .navigation a:hover {
+        opacity: 1;
+    }
+
+    .navigation.active {
+        right: 0;
+    }
+
+    .page-container {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    section {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .footer {
+        width: 100%;
+        position: static;
+        bottom: auto;
+        margin-top: auto;
+    }
+
+    /* Стили для оверлея */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(3px);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navigation {
+        z-index: 1000;
+    }
+
+    .splash-screen{
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: space-between;
+      display: flex;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 60vh;
+      background: url('assets/png/background1.png') no-repeat center center/cover;
+  }
+
+      .content h1 {
+        font-size: 70px;
+        margin-bottom: 2px;
+        
+    }
+
+    .content p {
+        font-size: 40px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        display: block;
+        text-align: center;
+    }
+
+    .content .button {
+        padding: 15px 45px;
+        font-size: 40px;
+        border-radius: 45px;
+        margin-top: 30px;
+        min-width: 400px;
+        display: inline-block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    }
 }
 
 
