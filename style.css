@@ -1220,7 +1220,41 @@ body {
     height: 50vh;
   }
 
-  
+  .slider-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .card {
+    flex: 0 0 600px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 40px;
+  }
+
+  .card-content {
+    padding: 30px;
+  }
+
+  .card-content img {
+    width: 85%;
+    height: auto;
+  }
+
+  .slider-btn {
+    height: 80px;
+    width: 80px;
+  }
+
+  .slider-btn img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .text-cust h2 {
+    font-size: 60px;
+  }
   
 
 }
