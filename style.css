@@ -342,9 +342,14 @@ body {
   object-fit: contain;
 }
 
+.work{
+  padding: 50px 20px;
+}
+
 .work-wrapper{
   position: relative;
   width: 100%;
+  
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -462,6 +467,10 @@ body {
   line-height: 1.2;
 }
 
+.develop{
+  padding: 50px 20px;
+}
+
 .develop-wrapper{
   position: relative;
   width: 100%;
@@ -522,8 +531,9 @@ body {
   font-size: 40px;
 }
 
-#service_industries{
+.service{
   max-width: 1100px;
+  padding: 50px 20px;
 }
 
 .services-wrapper{
@@ -738,7 +748,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: url('assets/png/background8.png') no-repeat center center/cover;
     z-index: -1;
 }
@@ -1022,6 +1032,22 @@ body {
 
 /* Медиа-запрос для мобильных устройств */
 @media screen and (max-width: 1000px) {
+
+  #our_work{
+    scroll-margin-top: 150;
+  }
+
+  #service_industries{
+    scroll-margin-top: 150px;
+  }
+
+  #portfolio{
+    scroll-margin: 150px;
+  }
+  
+  #contact{
+    scroll-margin-top: 150px;
+  }
     .header {
         height: 120px;
         padding: 10px 15px;
@@ -1451,6 +1477,188 @@ body {
 
   #portfolio {
     margin-top: 50px;
+  }
+
+  .contact-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 40px;
+    min-height: 1200px;
+  }
+
+  .contact-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 110vh;
+  }
+
+  .contact-wrapper::before {
+    min-height: 110vh;
+  }
+
+  .contact-wrapper {
+    min-height: 110vh;
+  }
+
+  .contact-container h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .contact-container p {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+
+  .contact-input {
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .contact-input.message {
+    height: 250px;
+  }
+
+  .submit-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .submit-btn img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 120px;
+  }
+
+  .submit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .submit-btn img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer {
+    padding: 60px 0 40px;
+  }
+
+  .footer-container {
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .footer-logo img {
+    height: 80px;
+    margin-bottom: 30px;
+  }
+
+  .footer-slogan {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .footer-social {
+    gap: 40px;
+  }
+
+  .footer-social img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-contact {
+    gap: 20px;
+  }
+
+  .footer-contact a {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .footer-contact p {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .footer-bottom {
+    margin-top: 60px;
+    padding: 30px 40px 0;
+  }
+
+  .footer-bottom p {
+    font-size: 25px;
+  }
+
+  .modal-content {
+    padding: 50px;
+    border-radius: 40px;
+    width: 90%;
+    max-width: 800px;
+    min-height: 650px;
+    margin: auto;
+  }
+
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 120px;
+  }
+
+  .modal-form .submit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .modal-form .submit-btn:hover {
+    transform: translateX(50%) scale(1.05);
+  }
+
+  .modal-form .submit-btn img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .close-btn {
+    font-size: 60px;
+    top: 40px;
+    right: 40px;
+  }
+
+  .modal-content h2 {
+    font-size: 50px;
   }
 }
 

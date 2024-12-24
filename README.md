@@ -23,3 +23,18 @@
 ![alt text](assets/screenshotsREADME/screenshot11.png)
 ## Modal
 ![alt text](assets/screenshotsREADME/screenshot12.png)
+# Mobile adaptive layout
+## Presentation
+![alt text](assets/screenshotsREADME/mobile_screen1.png)
+![alt text](assets/screenshotsREADME/mobile_screen2.png)
+![alt text](assets/screenshotsREADME/mobile_screen3.png)
+![alt text](assets/screenshotsREADME/mobile_screen4.png)
+![alt text](assets/screenshotsREADME/mobile_screen5.png)
+![alt text](assets/screenshotsREADME/mobile_screen6.png)
+![alt text](assets/screenshotsREADME/mobile_screen7.png)
+![alt text](assets/screenshotsREADME/mobile_screen8.png)
+![alt text](assets/screenshotsREADME/mobile_screen9.png)
+![alt text](assets/screenshotsREADME/mobile_screen10.png)
+![alt text](assets/screenshotsREADME/mobile_screen11.png)
+![alt text](assets/screenshotsREADME/mobile_screen12.png)
+
