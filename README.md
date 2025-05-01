@@ -1,5 +1,9 @@
 # Web project, business card site for an enterprise 
-## Used HTML, CSS, JS
+## Used technologies:
+- HTML
+- CSS
+- JS
+## [Figma Layout](https://www.figma.com/design/wJXxTCswZBUvBG6fDbG3GO/IT-solutions-Web?node-id=0-1&p=f&t=LOUsIJYZ0bHAp9l5-0)
 # Presentation
 ## HomePage
 ![alt text](assets/screenshotsREADME/screenshot1.png)
